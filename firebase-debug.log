@@ -1,0 +1,18 @@
+[debug] [2022-12-29T18:49:34.518Z] ----------------------------------------------------------------------
+[debug] [2022-12-29T18:49:34.521Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\NUPUR\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-12-29T18:49:34.522Z] CLI Version:   11.19.0
+[debug] [2022-12-29T18:49:34.522Z] Platform:      win32
+[debug] [2022-12-29T18:49:34.522Z] Node Version:  v16.15.0
+[debug] [2022-12-29T18:49:34.524Z] Time:          Fri Dec 30 2022 00:19:34 GMT+0530 (India Standard Time)
+[debug] [2022-12-29T18:49:34.524Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-29T18:49:34.638Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/undefined [none]
+[debug] [2022-12-29T18:49:35.336Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/undefined 403
+[debug] [2022-12-29T18:49:35.337Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/undefined {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-12-29T18:49:35.339Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-12-29T18:49:35.665Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\NUPUR\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\NUPUR\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project undefined. Please make sure the project exists and your account has permission to access it.
